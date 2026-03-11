@@ -23,34 +23,6 @@ It includes a responsive layout with a sidebar, topbar, theme settings, and data
 - Recharts
 - JavaScript (ES6+)
 
----
-
-## 📂 Project Structure
-
-```
-src
-│
-├── components
-│   ├── charts
-│   │   └── SalesBarChart.jsx
-│   │
-│   ├── sidebar
-│   │   └── Sidebar.jsx
-│   │
-│   └── topbar
-│       └── Topbar.jsx
-│
-├── context
-│   └── SettingsContext.jsx
-│
-├── layout
-│   └── DashboardLayout.jsx
-│
-└── pages
-    └── Dashboard.jsx
-```
-
----
 
 ## ⚙️ Installation
 
@@ -109,50 +81,6 @@ The project uses a **global settings context** to control:
 - Dark / Light mode
 - App settings
 
-Example:
-
-```javascript
-const { darkMode, setDarkMode } = useSettings();
-```
-
----
-
-## 🧱 Layout System
-
-The dashboard layout includes:
-
-```
-Sidebar
-Topbar
-Main Content
-```
-
-Structure:
-
-```
-DashboardLayout
- ├── Sidebar
- ├── Topbar
- └── Page Content
-```
-
----
-
-## 📸 Screenshots
-
-You can add screenshots here:
-
-```
-/screenshots/dashboard.png
-```
-
-Example:
-
-```
-![Dashboard Screenshot](./screenshots/dashboard.png)
-```
-
----
 
 ## 📌 Future Improvements
 
